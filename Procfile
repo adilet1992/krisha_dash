@@ -1,0 +1,1 @@
+worker: python krisha_dash.py
