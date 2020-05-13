@@ -1,1 +1,1 @@
-web: python krisha_dash.py
+web: gunicorn krisha_dash:app --log-file -
