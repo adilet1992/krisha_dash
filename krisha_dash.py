@@ -6,6 +6,8 @@ districts = ['Алатауский', 'Алмалинский', 'Ауэзовск
 materials = ['кирпичный', 'монолитный', 'панельный']
 app = dash.Dash(__name__)
 
+server = app.server
+
 app.layout = html.Div(
     children=[
         html.H1('Узнайте цену квартир в Алматы', style={'font-family': 'Arial', 'text-align': 'center', 'margin-bottom': '50px'}),
