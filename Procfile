@@ -1,1 +1,1 @@
-worker: python krisha_dash.py
+web: python krisha_dash.py
