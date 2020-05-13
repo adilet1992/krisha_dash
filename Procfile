@@ -1,1 +1,1 @@
-web: gunicorn krisha_dash:app --log-file -
+web: gunicorn krishadash.wsgi
