@@ -1,1 +1,1 @@
-web: gunicorn krisha_dash.wsgi
+web: gunicorn krisha_dash:server
